@@ -1,6 +1,10 @@
 /*
 Navigation bar styling
 */
+* {
+    box-sizing: border-box;
+}
+
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -69,20 +73,26 @@ img {
     opacity:0.7;
 }
 
-#sec_1, #sec_2,#sec3 {
+#sec_1, #sec_2, #sec3 {
+max-width: 60%;
+min-width: 30%;
+height: 300px;
+
+
+/*    
 list-style-type: none;
 position: relative;
 display: inline-block;
 padding-top: 3px;
   float: left;
-
+*/
 }
-
+/*
 #sec_3 ul li {
   list-style-type: none;
   float: left;
 }
-
+*/
 .tile
 {
     background-color: grey;
